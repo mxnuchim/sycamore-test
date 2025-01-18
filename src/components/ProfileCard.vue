@@ -7,7 +7,7 @@
       <img
         src="../assets/avatar.jpeg"
         alt="Your Avatar"
-        class="w-32 h-32 rounded-full shadow-lg"
+        class="w-24 h-24 2xl:w-32 2xl:h-32 rounded-full shadow-lg"
       />
     </div>
     <div>
@@ -27,7 +27,7 @@
     </div>
     <div class="mt-6">
       <span class="text-gray-600 text-sm"
-        >You could check out some more of my work on my...you guessed it!
+        >You could check out some more of my work on my ... you guessed it!
         <a
           href="https://github.com/mxnuchim"
           target="_blank"
@@ -68,7 +68,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/**** Tailwind-based styles ensure the layout is modern and clean ****/
-</style>
