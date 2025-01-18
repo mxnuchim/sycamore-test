@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-[95vh] w-2/5 hidden lg:flex flex-col items-start justify-center pb-44 bg-gray-100 shadow-md rounded-[20px] px-28"
+    class="min-h-[95vh] w-2/5 hidden lg:flex flex-col items-start justify-center pb-44 bg-gray-100 shadow-md rounded-[20px] px-20 2xl:px-28"
   >
     <div class="mb-4">
       <!-- Avatar -->

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col items-start px-8 my-4">
+  <div class="w-full flex flex-col items-start px-0 lg:px-8 my-4">
     <h3 class="text-base lg:text-xl text-black font-semibold">New customer</h3>
     <h3 class="text-sm lg:text-base text-gray-500 font-normal">
       Add a new customer to the list
@@ -7,7 +7,7 @@
   </div>
   <form
     @submit.prevent="handleSubmit"
-    class="bg-white rounded px-8 pt-6 pb-8 mb-4 w-full"
+    class="bg-white rounded px-0 lg:px-8 pt-6 pb-8 mb-4 w-full"
   >
     <div class="mb-4">
       <label

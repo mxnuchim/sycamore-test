@@ -1,5 +1,11 @@
 <template>
-  <div class="bg-white rounded px-8 pt-6 pb-8 max-w-full">
+  <div class="bg-white rounded px-0 md:px-8 pt-0 lg:pt-6 pb-8 max-w-full">
+    <div class="w-full flex flex-col items-start mb-4">
+      <h3 class="text-base lg:text-xl text-black font-semibold">Customers</h3>
+      <h3 class="text-sm lg:text-base text-gray-500 font-normal">
+        List of available customers
+      </h3>
+    </div>
     <div class="flex justify-between items-center mb-6">
       <input
         v-model="searchQuery"

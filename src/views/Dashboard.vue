@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center flex-wrap px-4 bg-white min-h-screen">
+  <div class="flex justify-center flex-wrap px-4 bg-white min-h-screen w-full">
     <!-- Left Section: Form and Table -->
     <div class="w-full lg:w-3/5 pr-4">
       <!-- Add Customer Button -->
