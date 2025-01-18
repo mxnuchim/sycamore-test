@@ -273,6 +273,7 @@ export default {
       });
 
       if (isValid.value) {
+        console.log({ ...customer.value });
         customerStore.addCustomer({ ...customer.value });
         // Reset form
         customer.value = {
